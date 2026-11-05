@@ -1,0 +1,20 @@
+{
+  "mode": "reviews",
+  "businessUnits": [
+    "pccomponentes.com"
+  ],
+  "maxItems": 5,
+  "language": "all",
+  "stars": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "date": "all",
+  "query": "",
+  "searchLimit": 5,
+  "categoryIds": [],
+  "countryCode": "US"
+}

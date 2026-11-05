@@ -1,0 +1,145 @@
+{
+  "repository": {
+    "name": "trustpilot-reviews-api",
+    "description": "Python, JavaScript and cURL examples for collecting Trustpilot reviews, ratings and replies with Apify, plus company batches and CSV exports.",
+    "homepage": "https://apify.com/datascraperes/trustpilot-reviews-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "Trustpilot Reviews Scraper | Business Data",
+    "id": "datascraperes/trustpilot-reviews-scraper",
+    "storeUrl": "https://apify.com/datascraperes/trustpilot-reviews-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~trustpilot-reviews-scraper",
+    "description": "Collect company reviews, ratings, available replies and business data as structured Dataset records."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/trustpilot-reviews-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "businessUnits",
+      "inputLabel": "Company domains or Trustpilot URLs",
+      "inputSummary": "Choose Reviews, enter company domains or review-page URLs, and set the maximum total results.",
+      "exportFormats": [
+        "JSON",
+        "CSV",
+        "Excel"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "Trustpilot reviews API Python",
+    "secondaryKeywords": [
+      "Trustpilot reviews CSV export",
+      "Trustpilot reviews JavaScript",
+      "Trustpilot company reviews batch"
+    ],
+    "topics": [
+      "trustpilot",
+      "trustpilot-api",
+      "trustpilot-reviews",
+      "apify",
+      "python",
+      "javascript",
+      "csv-export",
+      "customer-reviews"
+    ],
+    "longTailIntents": [
+      "Export an existing Trustpilot review Dataset to CSV",
+      "Collect Trustpilot reviews for multiple companies in Python"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/collect_reviews.py",
+      "examples/python/batch_companies.py",
+      "examples/python/export_reviews_csv.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Pay per event: data-result, one unique record delivered to the Dataset. Tier discounts apply.",
+    "unit": "one unique delivered Dataset record",
+    "price": "$0.50 per 1,000 results on FREE; paid-tier discounts"
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/trustpilot-reviews-api",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/trustpilot-reviews-api",
+    "githubToActorUrl": "https://apify.com/datascraperes/trustpilot-reviews-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v1.0.0",
+      "title": "Trustpilot reviews API integration examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/trustpilot-reviews-api",
+      "Trustpilot reviews API Python trustpilot-reviews-api"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/trustpilot-reviews-api/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/trustpilot-reviews-scraper?fpr=edudata"
+  }
+}
